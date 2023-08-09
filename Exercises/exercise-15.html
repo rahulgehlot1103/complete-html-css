@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise - 15</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: Arial;
+      }
+      .facebook-friend-request-area {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .friend-request-list {
+        display: inline-block;
+        height: 400px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        margin: 15px 8px;
+        padding-bottom: 16px;
+      }
+      .profile-image-area {
+        width: 250px;
+      }
+      .profile-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+      .about-user-area {
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .user-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 7px;
+      }
+      .mutual-friend-row {
+        width: 240px;
+      }
+      .user-image {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .mutual-friends {
+        margin-left: 6px;
+        vertical-align: middle;
+        display: inline-block;
+        color: rgb(96, 96, 96);
+        font-size: 20px;
+      }
+      .add-friend-btn {
+        background: #3975ea;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 10d -->
+    <div class="facebook-friend-request-area">
+      <div class="friend-request-list">
+        <div class="profile-image-area">
+          <img class="profile-image" src="../images/cat_image.jpeg" alt="" />
+        </div>
+        <div class="about-user-area">
+          <p class="user-name">Oliver</p>
+          <div class="mutual-friend-row">
+            <img class="user-image" src="../images/mutual-friend.jpeg" alt="" />
+            <p class="mutual-friends">2 Mutual friends</p>
+          </div>
+          <button class="add-friend-btn">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="friend-request-list">
+        <div class="profile-image-area">
+          <img class="profile-image" src="../images/cat_image_2.jpeg" alt="" />
+        </div>
+        <div class="about-user-area">
+          <p class="user-name">Oliver</p>
+          <div class="mutual-friend-row">
+            <img class="user-image" src="../images/mutual-friend.jpeg" alt="" />
+            <p class="mutual-friends">2 Mutual friends</p>
+          </div>
+          <button class="add-friend-btn">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="friend-request-list">
+        <div class="profile-image-area">
+          <img class="profile-image" src="../images/cat_image_3.jpeg" alt="" />
+        </div>
+        <div class="about-user-area">
+          <p class="user-name">Oliver</p>
+          <div class="mutual-friend-row">
+            <img class="user-image" src="../images/mutual-friend.jpeg" alt="" />
+            <p class="mutual-friends">2 Mutual friends</p>
+          </div>
+          <button class="add-friend-btn">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

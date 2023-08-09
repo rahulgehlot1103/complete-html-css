@@ -1,0 +1,108 @@
+.uber-btn {
+  background-color: black;
+  color: white;
+  /* height: 40px;
+        width: 120px; */
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  padding: 10px 12px;
+}
+.uber-btn:hover {
+  opacity: 0.8;
+}
+
+.add-to-cart-btn {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  /* width: 200px;
+        height: 33px; */
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  padding: 10px 45px;
+}
+.add-to-cart-btn:hover {
+  background-color: rgb(247, 206, 3);
+}
+
+.github-signup {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  /* height: 40px;
+        width: 90px; */
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 11px;
+  transition: box-shadow 0.15s;
+}
+.github-signup:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.get-started-btn {
+  background: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  /* width: 125px;
+        height: 40px; */
+  padding: 12px 29px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-right: 6px;
+  transition: background 0.15s;
+}
+.get-started-btn:hover {
+  background: rgb(95, 56, 152);
+}
+.download-btn {
+  background: white;
+  color: rgb(180, 176, 176);
+  /* width: 125px;
+        height: 40px; */
+  padding: 12px 29px;
+  border: none;
+  border: 1px solid grey;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+.download-btn:hover {
+  background: rgb(180, 176, 176);
+  color: white;
+}
+.apply-btn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  /* height: 40px;
+        width: 260px; */
+  padding: 11px 22px;
+  border-radius: 20px;
+  border: none;
+  transition: background 0.15s;
+}
+.apply-btn:hover {
+  background: rgb(2, 96, 189);
+}
+.save-btn {
+  background-color: white;
+  color: rgb(8, 91, 174);
+  /* height: 40px;
+        width: 90px; */
+  padding: 11px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 20px;
+  margin-left: 10px;
+  transition: border 0.15s, background-color 0.15s;
+}
+.save-btn:hover {
+  background-color: rgb(228, 242, 255);
+  border: 2px solid rgb(10, 102, 194);
+}

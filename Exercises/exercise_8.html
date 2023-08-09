@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise - 8</title>
+    <style>
+      .rounded-corners {
+        border: none;
+        border: 1px solid gray;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-bottom: 40px;
+      }
+
+      .google-homepage{
+        font-family: Arial;
+        width: 450px;
+        text-align: center;
+      }
+      .google-search-bar {
+        font-size: 16px;
+        border: none;
+        width: 400px;
+        padding: 10px 50px 10px 15px;
+        border-radius: 150px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+        margin-left: 10px;
+      }
+
+      .google-logo {
+          width: 150px;
+      }
+
+      .google-search-btn, .feeling-lucky-btn{
+        margin-right: 12px;
+        border: none;
+        cursor: pointer;
+        background: rgba(128, 128, 128, 0.122);
+        font-size: 14px;
+        padding: 12px 15px
+      }
+
+
+      p {
+        margin: 0;
+      }
+      .email {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 10px;
+      }
+      .email-box {
+        border: none;
+        border: 1px solid gray;
+        border-radius: 3px;
+        width: 300px;
+        padding: 6px;
+        margin-bottom: 15px;
+      }
+      .agree-btn {
+        width: 300px;
+        text-align: center;
+        background: rgb(83, 131, 253);
+        color: white;
+        border: none;
+        padding: 10px 0px;
+        border-radius: 150px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+
+      .twitter-area {
+        width: 380px;
+        /* border: 1px solid black; */
+        padding: 8px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+      }
+      .twitter-img {
+        border-radius: 50%;
+        width: 40px;
+        vertical-align: middle;
+      }
+
+      .twitter-box {
+        width: 250px;
+        vertical-align: middle;
+        font-size: 15px;
+        padding-left: 8px;
+        border: none;
+        outline: none;
+      }
+      .twitter-btn {
+        vertical-align: middle;
+        background: rgb(83, 131, 253);
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: padding 0.15s;
+      }
+
+      .twitter-btn:active {
+        padding: 6px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 7d -->
+    <input class="rounded-corners" type="text" placeholder="Search" />
+    <br /><br />
+
+    <!-- 7e, 8c, 9h-->
+    <div class="google-homepage">
+      <img class="google-logo" src="../images/google_logo.png" alt="" />
+      <input
+        class="google-search-bar"
+        type="text"
+        placeholder="Search google or type a URL"
+      />
+      <button class="google-search-btn">Google Search</button>
+      <button class="feeling-lucky-btn">I'm Feeling Lucky</button>
+    </div>
+    <br /><br />
+
+    <!-- 7f -->
+    <p class="email">Email</p>
+    <input class="email-box" type="text" />
+    <p class="email">
+      By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
+    <button class="agree-btn">Agree & Join</button>
+    <br /><br />
+
+    <!-- 7g -->
+    <div class="twitter-area">
+      <img class="twitter-img" src="../images/cat_image.jpeg" alt="" />
+      <input class="twitter-box" type="text" placeholder="What's happening?" />
+      <button class="twitter-btn">Tweet</button>
+    </div>
+  </body>
+</html>

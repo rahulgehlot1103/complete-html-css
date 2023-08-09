@@ -1,0 +1,165 @@
+
+    p{
+        margin: 0;
+    }
+    .font-tahoma{
+        font-family: Tahoma;
+        margin-bottom: 20px;
+    }
+
+
+    .font-arial{
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .sales-time{
+        margin-top: 5px;
+        font-family: Arial;
+        font-style: italic;
+        color: rgb(245, 50, 50);
+        font-size: 17px;
+    }
+
+    .font-verdana{
+        margin-top: 30px;
+        font-family: Verdana;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .course-level{
+        font-family: Verdana;
+        margin-top: 4px;
+        margin-bottom: 15px;
+        color: grey;
+        font-size: 14px;
+    }
+    .course-title{
+        font-family: Verdana;
+        font-size: 14px;
+        width: 250px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .get-started-btn{
+        font-family: Verdana;
+        background: green;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 8px 14px;
+        margin-bottom: 40px;
+    }
+
+    .apple-arial{
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold;
+        width: 350px;
+    }
+    .apple-subheading{
+        font-family: Arial;
+        width: 350px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .learn-more-link{
+        display: block;
+        font-family: Arial;
+        width: 350px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+    .font-family-arial{
+        font-family: Arial;
+        margin: 0;
+        width: 300px;
+        text-align: center;
+    }
+    .new-stock{
+        color: orange;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .model-name{
+        padding: 10px 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .model-feature{
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .model-price{
+        color: gray;
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    .buy-now-btn{
+       margin-left: 127px;
+        background: blue;
+        color: white;
+        border: none;
+        font-weight: medium;
+        font-size: 15px;
+        text-align: center;
+        padding: 8px 15px;
+        border-radius: 20px;
+    }
+
+    .stock-price{
+        margin-top: 30px;
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .currency{
+        color: gray;
+        font-size: 14px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+    .current-stock-growth{
+        font-family: Arial;
+        color: green;
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .stock-current-price{
+        color: gray;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .current-stock-loss{
+        padding-left: 7px;
+        color: red;
+        font-size: 16px;
+    }
+
+
+    .tweet-handle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .tweet-time-upload{
+        color:gray;
+        padding-left: 5px;
+        font-weight: normal;
+    }
+    .tweet-content{
+        width: 500px;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .twitter-id{
+        color: blue;
+    }

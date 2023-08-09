@@ -1,0 +1,71 @@
+p {
+  font-family: "Roboto", Arial;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 13px;
+}
+
+.video-preview {
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel-image {
+  /* Taaki aaju baaju aa jaaye dono
+  display: inline-block;
+  /*default width 100% hoti h div ki to parent ke acc. change kia  */
+  /* width: 50px;
+  /* vertical-align: top; */
+  /* background: gray; */
+}
+.video-info {
+  /* Taaaki aaju baaju aa jaaye dono */
+  /* display: inline-block; */
+  /*default width 100% hoti h div ki to parent ke acc. change kia  */
+  /* /* width: 245px; */
+  /* background: gray; */
+}
+
+.profile-image {
+  /* width: 100% --- apne parent ki 100% width le legaa */
+  width: 40px;
+  border-radius: 50%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 5px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}

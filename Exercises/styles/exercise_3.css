@@ -1,0 +1,52 @@
+a {
+  color: rgb(0, 113, 113);
+  transition: color 0.15s;
+}
+a:hover {
+  color: rgb(255, 164, 28);
+}
+
+.text-green {
+  color: rgb(0, 118, 0);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.add-btn {
+  background: rgb(255, 216, 20);
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+  border: none;
+  font-size: 14px;
+  margin-right: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.add-btn:hover {
+  background-color: rgb(223, 190, 20);
+}
+.add-btn:active {
+  opacity: 0.6;
+}
+
+.buy-btn {
+  background: rgb(255, 164, 28);
+  font-size: 14px;
+  border: none;
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+.buy-btn:hover {
+  background: rgb(236, 149, 17);
+}
+.buy-btn:active {
+  opacity: 0.6;
+}

@@ -1,0 +1,72 @@
+.back-btn {
+  border: none;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.next-btn {
+  border: none;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.stretch-btn {
+  background: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 8px 17px;
+  cursor: pointer;
+  transition: padding 0.15s, margin 0.15s;
+}
+.stretch-btn:hover {
+  padding: 16px 34px;
+}
+
+.shadow-btn {
+  border: none;
+  background: green;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 8px 18px;
+  cursor: pointer;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  transition: margin 0.15s;
+}
+.shadow-btn:active {
+  margin: 3px 0 0 3px;
+}
+
+.number-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  transition: padding 0.15s, margin 0.15s;
+}
+
+.number-button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

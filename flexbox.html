@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice</title>
+  </head>
+
+  <body style="padding-bottom: 1000px">
+    <!-- example 1 -->
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue">
+        div1 Lorem ipsum dolor sit amet.
+      </div>
+      <div style="background-color: lightcyan">
+        div2
+        <p>Lorem, ipsum.</p>
+      </div>
+    </div>
+
+    <!-- example 2 -->
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightcyan; flex: 1">flex: 1</div>
+    </div>
+
+    <!-- example 3 -->
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; flex: 1">flex: 1</div>
+      <div style="background-color: lightcyan; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px; flex: 2">
+        flex 2
+      </div>
+    </div>
+
+    <!-- example 4 -->
+    <div
+      style="
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightcyan; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <!-- example 5 -->
+    <div
+      style="
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightcyan; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <!-- example 6 -->
+    <div
+      style="
+        margin-top: 30px;
+        height: 70px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightcyan; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+  </body>
+</html>

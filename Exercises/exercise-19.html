@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise - 19</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 1px solid rgb(200, 200, 200);
+            width: 400px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            padding: 6px 12px;
+        }
+        .home{
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .unread-messages{
+            background: #4666D2;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="flexbox">
+          <div class="home">Home</div>
+          <div class="unread-messages">14</div>
+        </div>
+        <div class="flexbox">
+          <div class="home">Notification</div>
+          <div class="unread-messages">3</div>
+        </div>
+        <div class="flexbox">
+          <div class="home">Messages</div>
+          <div class="unread-messages">5</div>
+        </div>
+    </div>
+  </body>
+</html>
